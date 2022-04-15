@@ -1,44 +1,51 @@
 # FellowCited
 
-## 下载ACM Fellow信息
+## Download ACM Fellow List
+
 https://awards.acm.org/fellows/award-winners
 
-将网页源代码复制到文件Recipients.txt中
+Copy the web page source code to Recipients.txt
 
-执行catchACMFellow.py创建ACMFellows.txt文件
+Run catchACMFellow.py to create ACMFellows.txt
 
-## 下载IEEE Fellow信息
-执行catchIEEEFellow.py创建IEEEFellows.txt文件
+## Download IEEE Fellow List
 
-## 下载作者论文列表（Excel版）
-打开webofscience.com
+Run catchIEEEFellow.py to create IEEEFellows.txt
 
-搜索作者名字
+## Download paper citation list
 
-在论文列表中逐个点击被引频次查看引用列表
+Browse webofscience.com
 
-点击引文报告，点击导出完整的引文报告
+Search the author's name
 
-如果选择Excel文件，所有Excel保存到PapersExcel文件夹
+Click the cited frequency one by one in the paper list to view the citation list
 
-如果选择文本文件，所有txt保存到Papers文件夹
+Click Citation Report, Click Export Full Report
 
-执行RenameExcel.py将所有Excel文件重命名为论文名
+If you choose Excel File, save all excel to the PapersExcel folder
 
-## 引用数据提取
-根据刚才下载的文件类型选择执行
+If you choose Text File, save all txt to the Papers folder
 
+Run RenameExcel.py to rename all Excel files to paper titles
+
+## Citation data extraction
+
+Select and Run:
 
 Demo_ExcelVersion.py
 
-或者
+or
 
 Demo_TxtVersion.py
 
-## 分析结果展示
-执行show.py生成分析结果文件showCite.txt
+According to the file type just downloaded
 
-## 注意
-该方法只是基于引用作者的名字对比实现
+## Display of analysis results
 
-需要手动根据单位、邮箱等信息确认是否是Fellow本人
+Run show.py to create showCite.txt
+
+## Warning
+
+This method is only based on the comparison of the names of the citation authors
+
+It is necessary to manually confirm whether it is fellow himself according to the company, email and other information
