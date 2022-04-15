@@ -1,5 +1,7 @@
 # FellowCited
 
+[中文文档](README_CN.md)
+
 ## Download ACM Fellow List
 
 https://awards.acm.org/fellows/award-winners
